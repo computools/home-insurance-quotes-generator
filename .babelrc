@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "corejs": 3,
+        "modules": "commonjs",
+        "useBuiltIns": "usage",
+        "forceAllTransforms": true
+      }
+    ],
+    "@babel/preset-react",
+    "@babel/typescript"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/proposal-class-properties", { "loose": true }],
+    "@babel/plugin-transform-parameters",
+    "@babel/plugin-transform-block-scoping",
+    "@babel/proposal-object-rest-spread",
+  ]
+}

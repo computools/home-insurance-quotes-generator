@@ -1,0 +1,11 @@
+{
+  "production": {
+    "showEditRequiredFieldsPopUp": false
+  },
+  "demo": {
+    "showEditRequiredFieldsPopUp": false
+  },
+  "development": {
+    "showEditRequiredFieldsPopUp": true
+  }
+}

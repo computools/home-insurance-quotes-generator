@@ -1,0 +1,30 @@
+{
+  "extends": ["tslint-config-airbnb", "tslint-react", "tslint-config-prettier", "tslint-plugin-prettier"],
+  "rulesDirectory": ["src/rules"],
+  "rules": {
+    "prettier": true,
+    "jsx-use-translation-function": [false, "allow-punctuation", "allow-htmlentities"],
+    "indent": false,
+    "jsx-no-lambda": false,
+    "jsx-boolean-value": false,
+    "jsx-key": false,
+    "jsx-curly-spacing": "never",
+    "jsx-no-multiline-js": false,
+    "no-import-side-effect": true,
+    "no-consecutive-blank-lines": [true, 1],
+    "no-this-assignment": false,
+    "no-var-self": false,
+    "variable-name": [false, "check-format", "allow-pascal-case"],
+    "max-line-length": [true, 140],
+    "ter-arrow-parens": false,
+    "prefer-array-literal": false,
+    "space-before-function-paren": [false, "always"],
+    "object-curly-spacing": [true, "never"],
+    "object-literal-key-quotes": false,
+    "import-name": false,
+    "align": false,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "ter-computed-property-spacing": false,
+    "ter-indent": false
+  }
+}
