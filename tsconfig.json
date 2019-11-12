@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": "src",
+    "checkJs": false,
+    "noImplicitAny": true,
+    "keyofStringsOnly": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true,
+    "esModuleInterop": true
+  }
+}

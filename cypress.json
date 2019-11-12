@@ -1,0 +1,9 @@
+{
+  "baseUrl": "http://localhost:3333/",
+  "defaultCommandTimeout": 6000,
+  "video": false,
+  "chromeWebSecurity": false,
+  "env": {
+    "GABI_QUOTE": "Nationwide (Allied)"
+  }
+}
